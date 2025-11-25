@@ -1,30 +1,59 @@
-# Elegant Event Planner
+#  Event Planner Demo – OGM Media 
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Welcome to the **Event Planner Demo**, a showcase website designed for event planners, coordinators, and agencies who want a **modern, stylish, high-converting online presence**.  
+This project is part of OGM Media’s growing library of **industry-focused demo sites** used to pitch, present, and onboard new clients. 🎉
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andrew-s-projects-f5badde6/v0-elegant-event-planner)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/jkaIePZ7QBJ)
+---
 
-## Overview
+## 🎯 Purpose of This Demo
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This demo was created to:
 
-## Deployment
+- 🎀 Showcase an elegant, event-planner–friendly UI  
+- 💡 Demonstrate layout ideas, content flow, and CTA placement  
+- ⚡ Provide a fast starting point for real client builds  
+- 🎨 Highlight OGM Media’s blend of **design + engineering**
 
-Your project is live at:
+This is a **functional preview**, meant to be customized per client needs.  
+Think of it as a *template* + *sales tool* rolled into one.
 
-**[https://vercel.com/andrew-s-projects-f5badde6/v0-elegant-event-planner](https://vercel.com/andrew-s-projects-f5badde6/v0-elegant-event-planner)**
+---
 
-## Build your app
+## 🛠️ Tech Stack
 
-Continue building your app on:
+This project is built with a modern, production-ready stack:
 
-**[https://v0.app/chat/jkaIePZ7QBJ](https://v0.app/chat/jkaIePZ7QBJ)**
+- ⚛️ **React**
+- 🚀 **Next.js** (App Router)
+- 🎨 **Tailwind CSS** for styling
+- 🧩 **ShadCN UI** components
+- 📦 **pnpm** package manager
+- ⚡ **Turbopack** for fast dev builds
+- 🤖 Initial scaffolding assisted by **v0 by Vercel**
 
-## How It Works
+Designed for smooth, zero-config deployment on **Vercel**. 🌥️
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 📁 Project Structure
+
+    app/        → routes, layouts, and pages  
+    components/ → reusable UI + layout components  
+    public/     → images, icons, static assets  
+    styles/     → global styles & Tailwind config  
+
+Clean, organized, and easy to extend.
+
+---
+
+## 🌐 About OGM Media
+
+**OGM Media** builds:
+
+- 🖥️ Custom, high-converting business websites  
+- 🎨 Modern UI/UX with crisp visuals  
+- 🔐 Security-hardened, performance-focused deployments  
+- ⚡ Fast demo sites for non-technical industries  
+
+
+
