@@ -2,6 +2,9 @@ import Image from "next/image"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Heart, Sparkles, Award, Users } from "lucide-react"
+import sofia from '../../public/images/sofia.jpg'
+import david from '../../public/images/david.jpg'
+import emma from '../../public/images/emma.jpg'
 
 export default function About() {
   return (
@@ -110,7 +113,7 @@ export default function About() {
             <div className="border border-gray-100 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-[#F5EFE6] relative overflow-hidden">
                 <Image
-                  src="/images/team/emma.jpg"
+                  src={emma}
                   alt="Emma Richardson"
                   fill
                   className="object-cover object-top"
@@ -126,7 +129,7 @@ export default function About() {
             <div className="border border-gray-100 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-[#F5EFE6] relative overflow-hidden">
                 <Image
-                  src="/images/team/david.jpg"
+                  src={david}
                   alt="David Chen"
                   fill
                   className="object-cover object-top"
@@ -142,7 +145,7 @@ export default function About() {
             <div className="border border-gray-100 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-[#F5EFE6] relative overflow-hidden">
                 <Image
-                  src="/images/team/sofia.jpg"
+                  src={sofia}
                   alt="Sofia Martinez"
                   fill
                   className="object-cover"
