@@ -268,7 +268,7 @@ export default function PackagesPage() {
             budget. Contact us to discuss your vision.
           </p>
           <Link
-            href="/#contact"
+            href="/contact"
             className="inline-block px-8 py-3 bg-[#C9A961] text-white rounded hover:bg-[#b09350] transition-colors font-medium"
           >
             Request Custom Quote
